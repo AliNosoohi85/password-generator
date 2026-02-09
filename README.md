@@ -1,17 +1,15 @@
-# Python Password Generator
+# Password Generator
 
-A simple Python command-line application for generating secure passwords with customizable options.
+A simple password generator with a graphical user interface (GUI) built using **CustomTkinter**.
 
 ## Features
-- Custom password length
-- Optional lowercase letters
-- Optional uppercase letters
-- Optional numbers
-- Optional special characters
-- Default fallback when no character type is selected
+- Generate passwords with customizable length
+- Options to include lowercase, uppercase, numbers, and special characters
+- Copy generated password to clipboard using the copy button
+- Clean and simple GUI for easy use
+- Supports basic input validation (positive integer for password length)
 
-## How to Run
-Make sure Python is installed, then run:
-
-```bash
-python main.py
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AliNosoohi85/password-generator.git
